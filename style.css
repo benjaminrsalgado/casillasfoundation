@@ -25,3 +25,15 @@ main{
     height: 500px;
     color: aliceblue;
 }
+
+h1{
+    margin-top: 90px;
+    margin-left: 80px;
+    font-size: 50px;
+}
+
+.search-bar{
+    width: 800px;
+    margin-left: 80px
+    
+}
