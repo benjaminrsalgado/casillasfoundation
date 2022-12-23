@@ -1,0 +1,17 @@
+/*This is the navegation part*/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+div{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    color: #6DC5C7;
+}
+
