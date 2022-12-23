@@ -3,7 +3,7 @@
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: #131215;
 }
 
 div{
@@ -15,3 +15,13 @@ a{
     color: #6DC5C7;
 }
 
+/*This is the main part*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-image: url( "blue-bird.webp");
+    background-size: cover;
+    height: 500px;
+    color: aliceblue;
+}
