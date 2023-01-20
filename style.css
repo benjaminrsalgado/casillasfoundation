@@ -54,3 +54,85 @@ h1{
     margin-top: 50px;
     margin-left: 80px;
 }
+
+/*This is the first section, the  background"*/
+
+.second-background{
+    display: flex;
+    flex-direction: column;
+    background-image: url( "background2.jpg");
+    background-size: cover;
+    height: 500px;
+    color: aliceblue;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+/*This is the second section, the third background"*/
+
+.third-background{
+    display: flex;
+    flex-direction: column;
+    background-image: url( "background3.jpg");
+    background-size: cover;
+    height: 500px;
+    color: aliceblue;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subtitle{
+    margin: 0px;
+}
+
+.navegation-third-part{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.images-parent{
+    margin-left: 150px;
+}
+
+.images{
+    width: 200px;
+    height: 300px;
+}
+
+/*This is the third section, the fourth background"*/
+
+.fourth-backgorund{
+    display: flex;
+    flex-direction: column;
+    background-image: url( "background4.jpg");
+    background-size: cover;
+    height: 500px;
+    color: aliceblue;
+}
+
+.time-section{
+    display: flex;
+    flex-direction: column;
+}
+.call-icon{
+    width: 50px;
+    height: 50px;
+}
