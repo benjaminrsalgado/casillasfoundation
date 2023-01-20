@@ -50,5 +50,7 @@ h1{
 }
 
 .social-media-parent{
-    display: block;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
 }
