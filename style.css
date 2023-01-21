@@ -119,20 +119,37 @@ h2{
 
 /*This is the third section, the fourth background"*/
 
-.fourth-backgorund{
+.fourth-background{
     display: flex;
     flex-direction: column;
     background-image: url( "background4.jpg");
     background-size: cover;
     height: 500px;
-    color: aliceblue;
+    color: black;
 }
 
 .time-section{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    text-align: center;
 }
 .call-icon{
+    text-align: center;
+    margin-left: 570px;
     width: 50px;
     height: 50px;
+}
+
+h3, p{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.hours-left{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
