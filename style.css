@@ -146,10 +146,46 @@ h3, p{
     margin: 0px;
 }
 
+.parent-hours{
+    display: flex;
+    gap: 400px;
+}
+
+
 .hours-left{
     margin-left: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
+}
+
+.hours-right{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*This is the fourth section, the five background"*/
+
+.five-background{
+    display: flex;
+    flex-direction: column;
+    background-image: url( "background5.jpg");
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.doctor{
+    width: 250px;
+    height: 250px;
+    margin-left: 450px;
 }
