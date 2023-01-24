@@ -11,6 +11,11 @@ div{
     gap: 20px;
 }
 
+.anchors{
+    margin-top: 15px;
+    margin-left: 550px;
+}
+
 a{
     color: #6DC5C7;
     text-decoration: none;
@@ -157,7 +162,7 @@ h2{
 }
 .call-icon{
     text-align: center;
-    margin-left: 570px;
+    margin-left: 540px;
     width: 50px;
     height: 50px;
 }
@@ -186,27 +191,4 @@ h3, p{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-/*This is the fourth section, the five background"*/
-
-.five-background{
-    display: flex;
-    flex-direction: column;
-    background-image: url( "background5.jpg");
-    background-size: cover;
-    height: 500px;
-    color: white;
-}
-
-.about{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.doctor{
-    width: 250px;
-    height: 250px;
-    margin-left: 450px;
 }
